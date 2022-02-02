@@ -1,0 +1,107 @@
+body{
+    height: 10000px;
+}
+.top{
+    display: flex;
+}
+.container{
+    background-color: rgb(63, 59, 59);
+    display: flex;
+    padding: 0px 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.cont2{
+    padding-left: 910px;
+    display: flex;
+}
+li{
+    list-style: none;
+    list-style: none;
+    
+
+}
+.btn{
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.heading{
+    text-align: center;
+    color: white;
+    background-color:black;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu{
+    display: flex;
+    background-color: red;
+    padding: 1px 1px;
+    padding-left: 175px;
+    position:sticky;
+}
+.menu li{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.home{
+    margin-top: -16px;
+    top:1px;
+    position:sticky;
+}
+.head{
+    padding-left: 175px;
+}
+.head h1{
+    width:1000px;
+    border-bottom: 2px solid black;
+}
+.image{
+    padding-left: 175px;
+    display: flex;
+}
+.enter{
+    display: flex;
+    padding-left: 175px;
+}
+.share{
+    display: flex;
+    background-color: gray;
+    padding-left: 10px;
+}
+.share li{
+    padding:3px;
+}
+.share li:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+
+}
+.mainfoot{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding-left: 125px;
+}
+.foot1{
+    width: 50%;
+}
+.f1{
+    display: flex;
+}
+.f1 li{
+    margin: 8px;
+    padding-left:4px;
+}
+.time{
+    padding-left: 40px;
+}
+.trending{
+    padding-left: 40px;
+}

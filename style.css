@@ -1,0 +1,193 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+#navbar{
+    display: flex;
+    top: 0px;
+    z-index: 2;
+    position: sticky;
+    align-items: center;
+    height: 100px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#logo{
+margin: 10px 14px;
+}
+#logo img{
+    width: 155px;
+    height: 90px;
+    margin: 10px 10px;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    padding: 34px 23px;
+}
+#navbar ul li{
+    font-size: 1.5rem;
+    padding: 34px 23px;
+}
+#navbar ul li a{
+    z-index: 1;
+    color: white;
+    display: block;
+    padding: 34px 23px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    display: block;
+}
+#home{
+ text-align: center;   
+justify-content: center;
+display: flex;
+flex-direction: column;
+height: 270px;
+}
+#home::before{
+    content: "";
+    background: url(../pexels-adonyi-gábor-1414651.jpg)no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#home h1{
+    text-align: center;
+    font-size: 32px;
+color: red;
+}
+#home p{
+    color: blue;
+    text-align: center;
+font-size: 1.3rem;
+}
+.service-box{
+    background-color: #f2f2f2;
+text-align: center;
+}
+#h1ofservice{
+    font-size: 40px;
+    align-items: center;
+    background: #f2f2f2;
+    justify-content: center;
+    color: crimson;
+}
+#services{
+    display: flex;
+    margin: 2px;
+    background-color: #f2f2f2; 
+}
+#services .box img{ 
+    height: 160px;
+    margin: auto;
+    display: block;
+ }
+.box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background-color: #f2f2f2;   
+}
+#client-section{ 
+    
+    height: 300px;
+}
+#client-section h1{ 
+  font-size: 45px;
+  text-align: center;
+}
+#client-section::before{
+ content: "";
+ position: absolute;
+ background: url('../pexels-adonyi-gábor-1414651.jpg');
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.3;
+}
+
+#clients{
+    position: relative;
+    display: flex;
+    margin: 20px;
+    padding: 34px 34px;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item{
+    position: relative;
+    padding: 34px;
+}
+
+#clients img{
+    height: 124px;
+   display: block;
+}
+
+#contact{
+    position: relative;
+    text-align: center;
+    height: 1400px;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url(../pexels-lisa-1279330.jpg)no-repeat center center/cover;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;   
+}
+#contact h1{
+    font-size: 2.5rem;
+    padding: 24px;
+
+}
+#contact input{
+margin: 8px;
+width: 408px;
+height: 23px;
+border-radius: 5px;
+}
+#contact button{
+    border-radius: 6px;
+    background-color: blue;
+    width: 408px;
+    height: 23px;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+}
